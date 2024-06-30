@@ -643,13 +643,13 @@ ol {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    padding-bottom: 73.67%; /* Aspect ratio (442/600) * 100 */
+    padding-bottom: 73.6666666666%; /* Aspect ratio (442/600) * 100 */
 }
 
 .project__slider__item::before {
     content: '';
     display: block;
-    padding-top: 73.67%; /* Aspect ratio (442/600) * 100 */
+    padding-top: 73.6666666666%; /* Aspect ratio (442/600) * 100 */
 }
 
 .project__slider__item img {
