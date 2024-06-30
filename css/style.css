@@ -2606,6 +2606,9 @@ ol {
 	.container {
 		max-width: 1170px;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 @media only screen and (min-width: 1450px) {
@@ -2615,6 +2618,9 @@ ol {
 	.header {
 		padding: 30px 130px 0;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 /* Medium Device = 1200px */
@@ -2636,6 +2642,9 @@ ol {
 	.hero__slider.owl-carousel .owl-nav button.owl-next {
 		right: 15px;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 /* Tablet Device = 768px */
@@ -2774,6 +2783,9 @@ ol {
 	.header__widget {
 		display: none;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 /* Wide Mobile = 480px */
@@ -2993,6 +3005,9 @@ ol {
 	.testimonial__carousel.owl-carousel .owl-nav button.owl-next {
 		right: 0;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -3004,6 +3019,9 @@ ol {
 		margin-bottom: 40px;
 		text-align: left;
 	}
+	.project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
+    }
 }
 
 /* Small Device = 320px */
@@ -3037,6 +3055,7 @@ ol {
 	}
 	.project__slider.owl-carousel .owl-nav button {
 		left: 15px;
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
 	}
 	.project__slider.owl-carousel .owl-nav button.owl-next {
 		right: 15px;
@@ -3139,5 +3158,13 @@ ol {
     }
     .project__slider.owl-carousel .owl-nav button.owl-next {
         right: 10px; /* Adjust right position as needed */
+    }
+}
+
+
+/* For small mobile devices (below 480px) */
+@media only screen and (max-width: 479px) {
+    .project__slider.owl-carousel .owl-nav button {
+        background: rgba(255, 255, 255, 0.64); /* 60% transparent white */
     }
 }
