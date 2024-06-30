@@ -533,7 +533,7 @@ ol {
 .project__slider.owl-carousel .owl-nav button {
     height: 42px;
     width: 42px;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.65); /* 60% transparent white */
     font-size: 18px; /* Adjust font size if necessary */
     color: #111111;
     position: absolute;
@@ -3093,7 +3093,7 @@ ol {
     .project__slider.owl-carousel .owl-nav button {
         height: 42px;
         width: 42px;
-        background: #ffffff;
+        background: rgba(255, 255, 255, 0.65); /* 60% transparent white */
         font-size: 18px; /* Adjust font size if necessary */
         color: #111111;
         position: absolute;
@@ -3120,7 +3120,7 @@ ol {
     .project__slider.owl-carousel .owl-nav button {
         height: 42px;
         width: 42px;
-        background: #ffffff;
+        background: rgba(255, 255, 255, 0.65); /* 60% transparent white */
         font-size: 18px; /* Adjust font size if necessary */
         color: #111111;
         position: absolute;
