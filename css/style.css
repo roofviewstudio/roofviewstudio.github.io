@@ -637,9 +637,28 @@ ol {
 }
 
 .project__slider__item {
-	height: 600px;
-	position: relative;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 73.67%; /* Aspect ratio (442/600) * 100 */
+}
+
+.project__slider__item::before {
+    content: '';
+    display: block;
+    padding-top: 73.67%; /* Aspect ratio (442/600) * 100 */
+}
+
+.project__slider__item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
 }
 
 .project__slider__item:hover .project__slider__item__hover {
