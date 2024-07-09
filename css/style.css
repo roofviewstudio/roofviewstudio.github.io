@@ -1483,6 +1483,11 @@ ol {
 	padding-bottom: 120px;
 }
 
+.breadcrumb-option-contact {
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+
 .breadcrumb__text h2 {
 	font-size: 42px;
 	color: #ffffff;
