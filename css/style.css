@@ -1350,11 +1350,16 @@ ol {
 }
 
 .footer__about .footer__logo {
-	margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .footer__about .footer__logo a {
-	display: inline-block;
+    display: inline-block;
+}
+
+.footer__about .footer__logo img {
+    width: 300px;
+    height: 100%;
 }
 
 .footer__about p {
