@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360° Image Viewer</title>
+    <!-- Include Panellum CSS -->
+    <link rel="stylesheet" href="assets/pannellum/pannellum.css">
+</head>
+<body>
+    <!-- Panellum Viewer Container -->
+    <div id="panorama" style="width: 100%; height: 500px;"></div>
+
+    <!-- Include Panellum JS -->
+    <script src="assets/pannellum/pannellum.js"></script>
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "img/VR_test.jpg", // Replace with your image path
+            "autoLoad": true,
+            "showZoomCtrl": false,
+            "showFullscreenCtrl": true
+        });
+    </script>
+</body>
+</html>
